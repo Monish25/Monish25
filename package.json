@@ -1,0 +1,12 @@
+{
+  "name": "monish25-profile",
+  "private": true,
+  "type": "module",
+  "description": "Builds the profile README and its MonishOS images from about.md",
+  "scripts": { "build": "node build-md.mjs" },
+  "dependencies": {
+    "@fontsource/hanken-grotesk": "^5.0.0",
+    "@fontsource/jetbrains-mono": "^5.0.0",
+    "opentype.js": "^1.3.4"
+  }
+}
